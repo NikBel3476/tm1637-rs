@@ -139,7 +139,7 @@ where
     }
 }
 
-const MAX_FREQ_KHZ: u16 = 500;
+const MAX_FREQ_KHZ: u16 = 100;
 const USECS_IN_MSEC: u16 = 1_000;
 const DELAY_USECS: u16 = USECS_IN_MSEC / MAX_FREQ_KHZ;
 
